@@ -1,0 +1,12 @@
+[package]
+name = "mkqrcode"
+version = "0.1.0"
+edition = "2024"
+
+[dependenci]
+teloxide = { version = "0.12", features = ["macros", "auto-send"] }
+qrcode = "0.13"
+image = "0.25"
+tokio = { version = "1", features = ["full"] }
+dotenvy = "0.15"
+
