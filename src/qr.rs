@@ -1,4 +1,4 @@
-e qrcode::QrCode;
+use qrcode::QrCode;
 use image::{Luma, ImageBuffer};
 use std::io::Cursor;
 
