@@ -3,7 +3,7 @@ name = "mkqrcode"
 version = "0.1.0"
 edition = "2024"
 
-[dependenci]
+[dependencies]
 teloxide = { version = "0.12", features = ["macros", "auto-send"] }
 qrcode = "0.13"
 image = "0.25"
