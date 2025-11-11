@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 teloxide = { version = "0.12", features = ["macros", "auto-send"] }
-qrcode = "0.13"
+qrcode = "0.14"
 image = "0.25"
 tokio = { version = "1", features = ["full"] }
 dotenvy = "0.15"
